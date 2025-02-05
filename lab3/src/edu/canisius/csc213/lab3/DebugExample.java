@@ -9,7 +9,6 @@ public class DebugExample {
 
     public static void main(String[] args) {
         System.out.println("Starting DebugExample...");
-        
         try {
             // Simulate some operation that may throw an exception
             dangerousOperation();
@@ -23,7 +22,7 @@ public class DebugExample {
             // 2) Call our SysDebugger to gather system info
             SysDebugger.logRunningProcesses();
 
-	    // 3)Log the time of the crash
+	        SysDebugger.logCurrentDateTime();
 	    
         }
 
